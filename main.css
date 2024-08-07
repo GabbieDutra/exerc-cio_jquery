@@ -1,0 +1,158 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+    font-optical-sizing: auto;
+    font-style: normal;
+    background: url(./images/checklist.jpg) no-repeat center center fixed;
+    background-size: cover;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+h1, h2, h3 {
+    color: #cccccc;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.input-container{
+    display: flex;
+    gap: 10px;
+    margin-top: 10px;
+}
+
+input {
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+
+button {
+    padding: 10px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.add-task {
+    list-style-type: none;
+    padding: 0;
+    margin: 20px 0;
+}
+
+.task-card {
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 430px;
+    margin-top: 16px;
+    background-color: rgba(117, 111, 76, 0.723);
+}
+
+#button-add {
+    background-color: rgb(0, 255, 0);
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+}
+
+#button-add:hover {
+    background-color: rgb(88, 168, 7);
+}
+
+.clear-task {
+    background-color: rgba(255, 0, 0, 0.9);
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+}
+
+.clear-task:hover{
+    background-color: rgb(146, 12, 12);
+}
+
+ul li {
+    list-style: none;
+}
+
+li {
+    padding: 10px;
+    background-color: rgba(233, 227, 191, 0.723);
+    border-bottom: 1px solid #000000;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+    border-radius: 5px;
+    margin: 16px 0;
+    border-color: rgb(59, 59, 59);
+    font-weight: bold;
+}
+
+li:hover {
+    background-color: rgba(243, 238, 219, 0.723);
+}
+
+.line-through {
+    text-decoration: line-through;
+    color: red;
+}
+
+h3 {
+    text-align: center;
+    color: #cccccc;
+}
+
+.remove-task {
+    background-color: rgba(255, 0, 0, 0.542);
+    color: #000000;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: bold;
+    margin-left: 10px;
+}
+
+.remove-task:hover{
+    background-color:  red;
+}
+
+.rodape {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 40px;
+    background-color:rgba(117, 111, 76, 0.723);
+    text-align: center;
+    color: #cccccc;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}

@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tarefa Jquery</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Oswald:wght@200..700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./main.css" >
+</head>
+
+<body>
+    <header>
+        <h1>Checklist diário</h1>
+    </header>
+    <div class="container">
+
+        <form>
+            <h2>Adicione tarefas</h2>
+            <div class="input-container">
+                <input type="text" id="addTask" placeholder="Tarefa" required="required">
+                <button type="submit" id="button-add">Adicionar</button> 
+                <button type="reset" id="clear-task" class="clear-task">Remover</button>
+            </div>
+        </form>
+
+        <div class="task-card">
+            <h3>Lista de afazeres</h3>
+            <ul id="ul-task">
+            </ul>
+        </div>
+    </div>
+    
+    <footer>
+        <div class="rodape">
+            <p>
+                &copy; Gabbie Dutra - Todos os direitos reservados - 2024
+            </p>
+        </div>
+    </footer>
+    
+    <script src="https://code.jquery.com/jquery-3.7.1.js"></script>
+    <script src="./main.js"></script>
+
+</body>
+</html>
